@@ -1,4 +1,4 @@
-<!-- Simple HTML/JS countdow
+t<!-- Simple HTML/JS countdow
 Copyright (c) Fujima Electronics
 Licensed under the MIT license
 -->
@@ -21,7 +21,7 @@ Licensed under the MIT license
       var x = setInterval(function() {
         var current_time = new Date().getTime();
 
-        var dist = countdown - now;
+        var dist = countdown - current_time;
 
         var days = Math.floor(dist / (1000 * 60 * 60 * 24));
         var hours = Math.floor((dist % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
