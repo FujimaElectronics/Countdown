@@ -1,4 +1,4 @@
-t<!-- Simple HTML/JS countdow
+<!-- Simple HTML/JS countdow
 Copyright (c) Fujima Electronics
 Licensed under the MIT license
 -->
@@ -8,13 +8,26 @@ Licensed under the MIT license
   <head>
     <!-- Modify this when needed -->
     <title>Countdown</title>
+
+    <style>
+      .center-h1 {
+        align-items: center;
+        justify-content: center;
+      }
+      .center-p {
+        align-items: center;
+        justify-content: center;
+        font-size: xx-large
+      }
+    </style>
   </head>
   <body>
     <!-- Modify when needed -->
-    <h1>Countdown</h1>
-
-    <p id="countd"></p>
-
+    <h1 class="center_h1">Countdown</h1>
+    <div class="center-p">
+      <p id="countd"></p>
+    </div>
+      
     <script>
       var countdown = new Date("September 02, 2025 09:30:00").getTime();
 
